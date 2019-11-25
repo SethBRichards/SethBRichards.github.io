@@ -179,12 +179,11 @@ font-size: 165%;
 
 
 .tab {
-  overflow: hidden;
   position: fixed;
   left: 42.5%;
   top: 7%;
 
-  color: red;
+  color: #444444;
   font-size: 120%;
   
 }
