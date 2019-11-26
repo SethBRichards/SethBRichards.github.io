@@ -1,80 +1,126 @@
 
+#container{
+
+height:900px;
+width:1200px;
+
+}
+
+
 
 
 #name {
-position: fixed;
-left: 13%;
-top: 2%;
-width: 100%
+	position: relative;
+	left: 208px;
+	top: 16.5px;
+	width: 100%
 
-height: 100%;
-width: 100%;
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-color: #444444;
-font-size: 165%;
+	height: 100%;
+	width: 100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #444444;
+	font-size: 165%;
+
+
 
 }
 
 #topTitleLine{
-	position: fixed;
+	position: absolute;
 	left: 0%;
-	top: 4%;
+	top: 36px;
 	 
 	height: 2pt;
-	width: 2000pt;
-	margin-left: -25%;
+	width: 1600px;
 	background-color: #000000;
 }
 
 #titleLine{
-	position: fixed;
+	position: absolute;
 	left: 0%;
-	top: 14%;
+	top: 100px;
 	 
 	height: 2pt;
-	width: 2000pt;
-	margin-left: -25%;
+	width: 1600px;
 	background-color: #000000;
 }
 
 #profilePhoto{
-	position: fixed;
-	left: 8.5%;
-	top: 20%;
+	position: absolute;
+	left: 136px;
+	top: 170px;
+	min-width: 300px;
+	overflow: auto;
 }
 
 
 /*Main Tab CSS Section -----------------------------------------------------*/
 
 /*About CSS ----------------------------*/
-#bodyAbout{
-	position: fixed;
-	top: 25%;
-	left: 42.5%;
-	word-wrap: break-word;
+#About{
+	top: 140px;
+	left: 675px;
 	margin-right: 5%;
+	min-width : 300px;
+	min-height : 600px;
+	height: 401px;
+	width: 500px;
+	position: absolute;
+
+}
+
+#bodyAbout{
+
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	margin-right: 5%;
+	min-width: 500px;
+	overflow: hidden;
+	height: 75%;
+
+
+
 }
 #headerAbout{
-	position: fixed;
-	top: 13%;
-	left: 42.5%;
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	overflow: auto;
 }
 
 /*----------------------------*/
 
 /*Experience CSS ----------------------------*/
-#bodyExperience{
-	position: fixed;
-	top: 25%;
-	left: 42.5%;
-	word-wrap: break-word;
+#Experience{
+
+	top: 140px;
+	left: 675px;
 	margin-right: 5%;
+	min-width : 300px;
+	min-height : 600px;
+	height: 401px;
+	width: 500px;
+	position: absolute;
+}
+
+
+#bodyExperience{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	margin-right: 5%;
+	min-width: 500px;
+	overflow: hidden;
+	height: 75%;
+
 
 }
 #headerExperience{
-	position: fixed;
-	top: 13%;
-	left: 42.5%;
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	overflow: auto;
 }
 
 #E1{
@@ -90,60 +136,76 @@ font-size: 165%;
 /*----------------------------*/
 
 /*Courses CSS ----------------------------*/
+
+#Courses{
+	top: 140px;
+	left: 675px;
+	margin-right: 5%;
+	min-width : 700px;
+	min-height : 600px;
+	height: 401px;
+	width: 700px;
+	position: absolute;
+
+
+}
+
+
 #body1Courses{
-	position: fixed;
-	top: 22.5%;
-	left: 42.5%;
+	position: absolute;
+	top: 50px;
+	left: 0px;
 	word-wrap: break-word;
 	margin-right: 5%;
 }
 #body2Courses{
-	position: fixed;
-	top: 26%;
-	left: 42.5%;
+	position: absolute;
+	top: 85px;
+	left: 0px;
 	word-wrap: break-word;
 	margin-right: 5%;
 }
 
 #body3Courses{
-	position: fixed;
-	top: 32%;
-	left: 42.5%;
+	position: absolute;
+	top: 170px;
+	left: 0px;
 	word-wrap: break-word;
 	margin-right: 5%;
 
 }
 
 #body4Courses{
-	position: fixed;
-	top: 32%;
-	left: 70%;
+	position: absolute;
+	top: 170px;
+	left: 500px;
 	word-wrap: break-word;
 	margin-right: 5%;
 }
 
 #headerCourses{
-	position: fixed;
-	top: 13%;
-	left: 42.5%;
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	overflow: auto;
 }
 #seperatorInator1{
 	/*Vertical*/
 	border-left: 1px solid black;
 	height: 450px;
 	position: absolute;
-	left: 50%;
+	left: 470px;
 	margin-left: -3px;
-	top: 112%;
+	top: 200px;
 }
 
 #seperatorInator2{
 	/*Horizontal*/
-	position: fixed;
-	left: 42.5%;
-	top: 39%;
+	position: absolute;
+	left: 0px;
+	top: 230px;
 	height: .25pt;
-	width: 50%;
+	width: 800px;
 	background-color: black;
 	color: black;
 	border-style: solid black;
@@ -152,22 +214,35 @@ font-size: 165%;
 /*----------------------------*/
 
 /*Links CSS ----------------------------*/
+#Links{
+	top: 140px;
+	left: 675px;
+	margin-right: 5%;
+	min-width : 700px;
+	min-height : 600px;
+	height: 401px;
+	width: 700px;
+	position: absolute;
+
+}
+
 #bodyLinks{
-	position: fixed;
-	top: 35%;
-	left: 42.5%;
+	position: absolute;
+	top: 90px;
+	left: 0px;
 	margin-right: 5%;
 }
 #headerLinks{
-	position: fixed;
-	top: 13%;
-	left: 42.5%;
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	overflow: auto;
 }
 
 #badge{
-	position: fixed;
-	top: 30%;
-	left: 82%;
+	position: absolute;
+	top: 500px;
+	left: 650px;
 
 }
 
@@ -179,26 +254,22 @@ font-size: 165%;
 
 
 .tab {
-  position: fixed;
-  left: 42.5%;
-  top: 7%;
-
+  position: absolute;
+  left: 675px;
+  top: 20px;
+  width: 1200px;
+  height: 100px;
+  
   color: #444444;
   font-size: 120%;
+  overflow: auto;
   
 }
 
-#tabSelf{
-position: fixed;
-  left: 42.5%;
-  top: 7%;
 
-  color: #444444;
-  font-size: 120%;
-	
-}
 
 .tab button {
+  /*position: static;*/
   background-color: inherit;
   float: left;
   border: none;
@@ -206,23 +277,49 @@ position: fixed;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 80%;
-
-
+  font-size: 27px;
+  min-width: 80px;
+  white-space: nowrap; 
 }
 
 .tab button:hover {
   background-color: #ddd;
 }
 
+#b1{
+	position: absolute;
+	top: 28.25px;
+	left: 0px;
+}
+#b2{
+	position: absolute;
+	top: 28.25px;
+	left: 100px;
+
+}
+#b3{
+	position: absolute;
+	top: 28.25px;
+	left: 265px;
+}
+#b4{
+	position: absolute;
+	top: 28.25px;
+	left: 395px;
+}
+#b5{
+	position: absolute;
+	top: 28.25px;
+	left: 525px;
+}
+
 .tabcontent {
-	display: none;
 	padding: 6% 12%;
-	
-	position: fixed;
-	left: 30%;
-	top: 8%;
-	width: 55%
+	overflow: hidden;
+	position: absolute;
+	left: 500px;
+	top: 100px;
+	width: 500px;
 }
 
 .tabcontent {
@@ -233,3 +330,4 @@ position: fixed;
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
