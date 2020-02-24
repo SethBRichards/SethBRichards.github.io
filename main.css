@@ -31,7 +31,7 @@ width:1200px;
 	top: 36px;
 	 
 	height: 2pt;
-	width: 1600px;
+	width: 1500px;
 	background-color: #000000;
 }
 
@@ -41,7 +41,7 @@ width:1200px;
 	top: 100px;
 	 
 	height: 2pt;
-	width: 1600px;
+	width: 1500px;
 	background-color: #000000;
 }
 
@@ -60,7 +60,6 @@ width:1200px;
 #About{
 	top: 110px;
 	left: 675px;
-	margin-right: 5%;
 	min-width : 300px;
 	min-height : 700px;
 	height: 700px;
@@ -74,7 +73,6 @@ width:1200px;
 	position: absolute;
 	top: 70px;
 	left: 0px;
-	margin-right: 5%;
 	min-width: 500px;
 	overflow: hidden;
 	height: 75%;
@@ -96,7 +94,6 @@ width:1200px;
 
 	top: 110px;
 	left: 675px;
-	margin-right: 5%;
 	min-width : 300px;
 	min-height : 600px;
 	height: 700px;
@@ -109,7 +106,6 @@ width:1200px;
 	position: absolute;
 	top: 70px;
 	left: 0px;
-	margin-right: 5%;
 	min-width: 500px;
 	overflow: hidden;
 	height: 75%;
@@ -140,11 +136,10 @@ width:1200px;
 #Courses{
 	top: 110px;
 	left: 675px;
-	margin-right: 5%;
-	min-width : 700px;
+	min-width : 500px;
 	min-height : 600px;
 	height: 401px;
-	width: 700px;
+	width: 600px;
 	position: absolute;
 
 
@@ -153,17 +148,15 @@ width:1200px;
 
 #body1Courses{
 	position: absolute;
-	top: 50px;
+	top: 60px;
 	left: 0px;
 	word-wrap: break-word;
-	margin-right: 5%;
 }
 #body2Courses{
 	position: absolute;
 	top: 85px;
 	left: 0px;
 	word-wrap: break-word;
-	margin-right: 5%;
 }
 
 #body3Courses{
@@ -171,7 +164,6 @@ width:1200px;
 	top: 170px;
 	left: 0px;
 	word-wrap: break-word;
-	margin-right: 5%;
 
 }
 
@@ -180,7 +172,6 @@ width:1200px;
 	top: 170px;
 	left: 510px;
 	word-wrap: break-word;
-	margin-right: 5%;
 }
 
 #headerCourses{
@@ -217,11 +208,10 @@ width:1200px;
 #Links{
 	top: 110px;
 	left: 675px;
-	margin-right: 5%;
-	min-width : 700px;
+	min-width : 300px;
 	min-height : 600px;
 	height: 700px;
-	width: 700px;
+	width: 600px;
 	position: absolute;
 
 }
@@ -230,19 +220,17 @@ width:1200px;
 	position: absolute;
 	top: 90px;
 	left: 0px;
-	margin-right: 5%;
 }
 #headerLinks{
 	position: absolute;
 	top: -20px;
 	left: 0px;
-	overflow: auto;
 }
 
 #badge{
 	position: absolute;
-	top: 500px;
-	left: 650px;
+	top: 50px;
+	left: 600px;
 
 }
 
@@ -257,7 +245,7 @@ width:1200px;
   position: absolute;
   left: 675px;
   top: 20px;
-  width: 1200px;
+  width: 800px;
   height: 100px;
   
   color: #444444;
@@ -319,7 +307,6 @@ width:1200px;
 	position: absolute;
 	left: 500px;
 	top: 100px;
-	width: 500px;
 }
 
 .tabcontent {
