@@ -1,0 +1,26 @@
+Taken:
+
+Energy Systems (EE 351)
+- Develops understanding of modern energy systems through theory and analysis of the system and its components. Discussions of generation, transmission, and utilization are complemented by environmental and energy resources topics as well as electromechanical conversion, power electronics, electric safety, renewable energy, and electricity blackouts.
+
+Energy Infrastructure (CEE 402)
+- Energy infrastructure, focusing largely on balance of plant topics. Includes elements of site selection, design, and construction. Electrical production facilities and transmission. Emphasis on renewable energy facilities. Aids student ability to participate in a variety of projects involving energy infrastructure.
+
+Signals and Systems (EE 235)
+- Introduction to continuous time signal analysis. Basic signals including impulses, pulses, and unit steps. Periodic signals. Convolution of signals. Fourier series and transforms in discrete and continuous time. Computer laboratory.
+
+Planned:
+
+Wind Energy (EE 451)
+- Covers the operation and modeling of wind energy, wind statistics, wind generators and converters, wind energy systems, challenges to wind energy development, impacts of wind energy on the power grid, and existing and potential solutions to wind energy integration.
+
+Electronics Controls (EE 458)
+- Theory, design, and analysis of closed-loop controllers for power electronics circuits. Emphasis will be placed on modern control methods using digital control.
+
+Advanced Technical Communications (EE 393)
+- Practical skills for day-to-day engineering communication as well as an advanced exploration of how to prepare persuasive documents and presentations for technical and non-technical audiences.
+
+Power Electronics Design (EE 452)
+- Electronic conversion and control of electrical power. Includes semiconductor switching devices, power converter circuits, design of magnetics, and control of power converters. Also ac/ac, ac/dc, and dc/dc power converters; circuit simulation; extensive laboratory work; a four-week power converter design project.
+
+And assorted others. Please contact me if you are interested in my complete transcript.

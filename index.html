@@ -9,171 +9,183 @@
 
 </head>
 <body>
-	<div id="container">
-		
-			<div>
-				<hr id="topTitleLine">
-			</div>
+
+	<!-- This is a container div to keep the page fitted to variable screen sizes. -->
+	<div id="screenSizeDiv">
+
+		<div id="topcard">|</div>
+
+		<!-- ------------------------------------------------------------------------------------------------------------------>
+
+		<!-- This div contains the name, title of current page, and page selector. -->
+		<div id="titleDiv">
+			
+			<hr id="titleLineTop">
 
 			<div id="name">
 				<h1>Seth Richards</h1>
 			</div>
 
-			<div>
-				<hr id="titleLine">
-			</div>
-
-			<div id="profilePhoto">
-				<img src="profilePicture.png" alt="Seth Richards">
-			</div>
-
-
-			<div id="About" class="tabcontent">
-				<div id="headerAbout">
-				  <h3 style="font-size: 42px"><u>About</u></h3>
-				</div>
-
-				<div id="bodyAbout">
-					<p style="font-size: 20.5px">Hello, I’m Seth! I was born and raised in Portland, OR until I was 16, and then my family moved to Lahaina, HI. I currently live in Seattle, WA, where I’m pursuing my BS in Electrical Engineering at the University of Washington (Expected Graduation: June 2021).</p>
-					<p style="font-size: 20.5px">When I moved to Hawaii, I joined my new high school’s <a href="https://www.instagram.com/lunas3882/?hl=en">FRC Robotics team</a>, which exposed me to programming and circuitry for the first time. I was absolutely enthralled at first sight, leading me to take some Engineering design classes that taught me CAD, and gave me some hands-on experience with Arduino projects. A couple years later, I made up my mind and decided that Electrical Engineering was the best way for me to chase after my passions.</p>
-					<p style="font-size: 20.5px">When I got to college, I joined the <a href="https://faculty.washington.edu/aorsborn/index.html">Orsborn Lab</a>, a research lab at the university associated with the Department of Electrical & Computer Engineering, where I currently volunteer. In the lab, I’m using MATLAB and Python to translate some legacy code for future use. I’m learning a lot about signal processing and analyzing techniques, which will be used to Brain-Computer Interface technologies later on. It’s cool stuff, and it’s helping me learn a lot about coding, academia, and teamwork.</p>
-					<p style="font-size: 20.5px">My current plan is to focus my EE degree in the concentration my school refers to as <a href="https://vannevar.ece.uw.edu/academics/undergrad/MajorConcentrationAreas.html#PowerElectronics">“Power Electronics and Drives”</a>. I just really like playing with circuits, math, and programming, and I see this path as the optimal one to do all three. I’m going to diversify the classes I take, though, so if you’re interested, check out my courses page.</p>
-					<p style="font-size: 20.5px">Outside of school and work, I like to read science fiction, play racquetball, and keep up to date on global affairs. I used to be a competitive fencer; ask me about it if you’re interested!</p>
-				</div>
-			</div>
-
-			<div class="tab" id="tabSelf" >
-				<button id="b1" style="" class="tablinks"  onclick="openTab(event, 'About')">About</button>
-				<button id="b2" style="" class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
-				<button id="b3" style="" class="tablinks" onclick="openTab(event, 'Courses')">Courses</button>
-				<button id="b4" style="" class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
-				<button id="b5" style="" class="tablinks" onclick="openTab(event, 'Links')">Links/Contact</button>
-
-
-
-			</div>
-		 
-
-			<div id="Experience" class="tabcontent">
-			  	<div id="headerExperience">
-				  <h3 style="font-size: 42px" ><u>Experience</u></h3>
-				</div>
-
-				<div id="bodyExperience">
-					<p id="E1" style="font-size: 23px" >Undergraduate Research Assistant | Orsborn Lab | Seattle, WA March 2019 - Present</p>
-					<p id="e1" style="font-size: 18px">Currently, I work in the Osrborn Lab translating legacy MATLAB signal processing and analyzing code into Python to be used to learn more about how to optimize Brain-Computer Interface technologies through research and experimentation.</p>
-					 
-					<p id="E2" style="font-size: 23px">Engineering Services Intern | Goodfellow Bros Inc. | Kihei, HI Summer 2018</p>
-					<p id="e1" style="font-size: 18px">After my senior year of high school, I spent a month and a half at GBI, working in their Engineering Services department. I learned a lot about CAD and the construction industry. Though I did do a lot of CADing in Civil 3D, I also did some surveying related work with a drone and Trimble technology, and drafted graphics to be used in executive meetings.</p>
-
-					<p id="E2" style="font-size: 23px"> Programming Team | LHS High School FRC Robotics Team | Lahaina, HI 2016-2018</p>
-					<p id="e1" style="font-size: 18px">In my two years on the team, I got to learn about all the cool technologies related to robotics. I programmed autonomous subroutines, created 3D parts in AutoCAD, and learned about circuitry.</p>
-					 
-					<p id="E2" style="font-size: 23px">Room Service | Four Seasons Resort Maui | Wailea, HI Summer 2019</p>
-					<p id="e1" style="font-size: 18px">Working in hospitality  as a summer job has helped me learn valuable  social skills and figure out how to juggle a whole bunch of tasks all at once during crunch times!</p>
-
-					<p id="E2" style="font-size: 23px">RCSC Representative | UW HFS | Seattle, WA October 2018 -June 2019</p>
-					<p id="e1" style="font-size: 18px">In my freshman year, I took part in my dorms Student Council. I got to develop my leadership skills through leading community workshops, and participate in our judicial system by hearing out students accused of violating policy.</p>
-
-				</div>
-			</div>
-
-
-
-
-
-			 
-
-			<div id="Courses" class="tabcontent">
-				<div id="headerCourses">
-					<h3 style="font-size: 42px" ><u>Courses</u></h3>
-				</div>
-
-				
-				<p style="font-size: 25px" id="body1Courses">B.S. Electrical Engineering at the University of Washington</p>
-				<p style="font-size: 25px" id="body2Courses">Expected Graduation: June 2021</p>
-				
-
-				<div id="body3Courses">
-					<p style="font-size: 25px">Courses Taken</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/E%20E%20215?id=d2b87d8b-fc3b-45d0-b6d3-0f562cfcfb29">EE 215</a>: Fundamentals of Electrical Engineering</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/MATH%20308?id=8fa49b7a-c659-4c4d-95f9-f8de29b8dd88">MATH 308</a>: Linear Algebra</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/MATH%20307?id=e32780c0-56bf-4ccd-bc30-562101ee0abf">MATH 307</a>: Differential Equations</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/MATH%20324?id=ea796fa4-15b8-4126-b527-6708e376d5fd">MATH 324</a>: Calculus IV</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/PHYS%20123?id=f434775f-0044-4a7d-a5eb-f19a546e9844">PHYS 123</a>: Physics 3 (with Calc)</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/MSE%20170?id=41a8df6f-cbbd-4131-96bc-5c1433dbe125">MSE 170</a>: Fundamentals of Material Science</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/ENGR%20231?id=f8745966-d30a-4be0-a79e-0692ffd0ebdf">ENGR 231</a>: Intro to Technical Communication</p>
-
-				</div>
-				
-				<div id="body4Courses">
-					<p style="font-size: 25px">Courses Planned this year</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/E%20E%20233?id=687d4ca6-2d1f-4f80-ad3f-0e4297882a91">EE 233</a>: Circut Theory</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/E%20E%20235?id=1672b1da-11fb-4b8b-aba5-47eb0901bf13">EE 235</a>: Continuous Time Linear Systems</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/E%20E%20351?id=68309939-948d-42b7-91f7-a5666a34f6f9">EE 351</a>: Energy Systems</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/E%20E%20331?id=555f530d-0c10-4318-8a69-8e373f91224c">EE 331</a>: Devices and Circuts 1</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/CSE%20143?id=29c0b2f0-7cad-4784-af82-146fbd550b7e">CSE 143</a>: Computer Programming 1 & 2</p>
-					<p style="font-size: 19px" ><a href="https://myplan.uw.edu/course/#/courses/BIOEN%20217?id=cbba8e1e-b43f-4dcf-a7ed-148215d9b949">BIOEN 217</a>: Matlab Fundamentals</p>
-				</div>
-
-				<div id="seperatorInator1">
-					
-				</div>
-
-				<div id="seperatorInator2">
-					<hr>
-				</div>
-
+			<div class="tab" id="scrollButtons" >
+				<a href="#aboutMeDiv"><button>About Me</button></a>
+				<a href="#endaboutDiv"><button>Interests</button></a>
+				<a href="#interests"><button>Resumé</button></a>
+				<a href="#endresumeDiv"><button >Projects</button></a>
+				<a href="#endprojectDiv"><button>Coursework</button></a>
+				<a href="#endcourseDiv"><button >Contact</button></a>
 
 			</div>
 
-			<div id="Projects" class="tabcontent">
-				 <h3>Projects</h3>
-				 <p>Work In Progress. Check out my Github under the Links/Contact Tab for samples of some of the projects I've worked on</p>
-			</div>
+			<hr id="titleLineBase">
 
+		</div>
 
+		<!-- ------------------------------------------------------------------------------------------------------------------>
 
-
-
-			<div id="Links" class="tabcontent">
-				<div id="headerLinks">
-					<h3 style="font-size: 42px"><u>Links/Contact</u></h3>
-				</div>
-
-				<div id="bodyLinks">
-			  		<p style="font-size: 22px">If you'd like to reach me, please email me at <a href="mailto:sethrich@uw.edu">sethrich@uw.edu</a></p>
-			  		<br>
-			  		<p style="font-size: 22px">For a few examples of my programming, check out my <a href="https://github.com/sethbrichards">Github</a></p>
-			  		<br>
-			  		<p style="font-size: 22px">For my full CV, check out my <a href="https://www.linkedin.com/in/seth-richards/">Linkedin</a> Page</p>
-
-
-			  	</div>
-
-			  	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-				<div id="badge" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="seth-richards"><a class="LI-simple-link" href='https://www.linkedin.com/in/seth-richards?trk=profile-badge'>Seth Richards</a>
-				</div>
-			 
-			 </div>
-
-
-
-			<button  class="tablinks" style="display:none" onclick="openTab(event, 'About')" id="defaultOpen" ;></button>
-
-			<script>
-			// Get the element with id="defaultOpen" and click on it
-			document.getElementById("defaultOpen").click();
-			</script>
-
-			<!-- Tab links -->
+		<!-- This div contains the content for my about me section, including headshot and paragraph section. -->
+		<div id="aboutMeDiv">
 			
+			<div id="photos">
+				<img src="images/pano.jpeg" alt="sunset pano" width="323" height="95" id="p1">
+				<img src="images/public market.jpg" alt="market" width="127" height="90" id="p2">
+				<img src="images/food.jpg" alt="good food" width="126" height="95" id="p3">
+				<img src="images/windmills.jpg" alt="Lahaina Pali Trail" width="127" height="90" id="p4">
+				<img src="images/portland.jpg" alt="Lahaina Pali Trail" width="127" height="90" id="p5">
+			</div>
+
+			<hr id="aboutLine" >
+
+			<h2 id="titleAboutMe">About Me</h2>
+
+			<div id="insert">
+				<p>Hello, I’m Seth! I was born and lived in Portland, Oregon until I was 16, and then my family moved to Lahaina, Hawaii. I currently live in Seattle, Washington, where I’m a senior pursuing my BS in Electrical Engineering at the University of Washington.</p>
+
+				<p>When I moved to Hawaii, I joined my new high school’s <a href="https://www.instagram.com/lunas3882/?hl=en">FRC Robotics team</a>, which exposed me to programming and circuitry for the first time. I was absolutely enthralled at first sight, leading me to take some Engineering design classes that taught me CAD, and gave me some hands-on experience with Arduino projects. A couple years later, I made up my mind and decided that Electrical Engineering was the best way for me to chase after my passions.</p>
+
+				<p>When I got to college, I joined the <a href="https://faculty.washington.edu/aorsborn/index.html">Orsborn Lab</a>, an ECE affiliated research lab at the university, where I currently volunteer. In the lab, I’m using MATLAB and Python to translate some legacy code for signal processing. I’m learning a lot about data analytics, which will be used to Brain-Computer Interface technologies. It’s cool stuff, and it’s helping me learn a lot about coding, academia, and teamwork.</p>
+
+				<p>My current plan is to focus my EE degree in the concentration my school refers to as“<a href="https://vannevar.ece.uw.edu/academics/undergrad/MajorConcentrationAreas.html#PowerElectronics">Power Electronics and Drives</a>”. I'm very passionate about renewable energies, power, and controls, so this concentration allows me to get a good mix of each. I think power electronics and renewables are absolutely criticial in reducing the effects of climate change, so I want my career to focus on those to help make my community and the world a better place. To see more of my focus, check out my courses tab.</p>
+
+				<p>Outside of school and work, I like to read science fiction, play racquetball, go hiking, and keep up to date on global affairs. I used to be a competitive fencer; ask me about it if you’re interested!</p>
+
+			</div>
+
+				<img id="profilePicture" src="images/profilePicture.png" alt="Seth Richards" width="300" height="500">
+
+			<img id="endaboutDiv" src="images/spacing.png" alt="" width="100" height="95">
+
+		</div>
+
+		<!-- ------------------------------------------------------------------------------------------------------------------>
 
 
+		<div>
+			<hr style="width:100%;">
+
+			<h2 id="interests">Interests</h2>
+			<img src="images/spacing.png" alt="" width="100" height="95">
+			<a target="_blank" href="https://www.energy.gov/eere/wind/wind-vision#:~:text=The%20Wind%20Vision%20Report%20shows,and%20supporting%20services%20by%202050."><img src="images/windEnergy.png" alt="Seth Richards" width="90" height="90"></a>
+			<img src="images/spacing.png" alt="Seth Richards" width="95" height="95">
+			<a target="_blank" href="https://www.nist.gov/el/smart-grid"><img src="images/powerSystems.png" alt="Seth Richards" width="95" height="95"></a>
+			<img src="images/spacing.png" alt="Seth Richards" width="95" height="95">
+			<a target="_blank" href="https://www.inductiveautomation.com/resources/article/what-is-a-PLC#:~:text=If%20you're%20familiar%20with,may%20have%20heard%20of%20PLCs.&text=PLC%20stands%20for%20Programmable%20Logic,in%20size%20and%20form%20factors."><img src="images/automation.png" alt="Seth Richards" width="90" height="90"></a>
+			<img src="images/spacing.png" alt="Seth Richards" width="95" height="95">
+			<a target="_blank" href="https://www.shell.com/promos/business-customers-promos/overview-of-sky/_jcr_content.stream/1556211464715/08824370d34ccbe871b0b813f9afdff96d8c267b/sky-scenarios-leaflet.pdf"><img src="images/green.png" alt="Seth Richards" width="95" height="95"></a>
+			<img src="images/spacing.png" alt="Seth Richards" width="95" height="95">
+			<a target="_blank" href="http://resources.solmetric.com/get/SolarPro%20I-V%20feature%20article,%20Hernday.pdf"><img src="images/solar.png" alt="Seth Richards" width="90" height="90"></a>
+
+			<hr style="width:100%;">
+
+		</div>
+
+		<!-- ------------------------------------------------------------------------------------------------------------------>
+
+
+		<div id="resumeDiv">
+			<br>
+			<h2 id="resumeTitle">Resumé</h2>
+			<br>
+			<iframe id="resume" src="docs/websiteResume.pdf#toolbar=0" width="800px" height="1050px">
+    		</iframe>
+    		<img id="endresumeDiv" src="images/spacing.png" alt="" width="100" height="95">
+
+    		<hr>
+
+		</div>
+		
+		<!-- ------------------------------------------------------------------------------------------------------------------>
+			<div id="projectDiv">
+
+			<br>
+			<h2 id="projectTitle">Projects</h2>
+			<br>
+			<p id="work" style="font-size:13px;">This section is work in progress. Check out my resume and GitHub for more information.</p>
+			<img id="endprojectDiv" src="images/spacing.png" alt="" width="100" height="95">
+    		<hr>
+		</div>
+
+		<!-- ------------------------------------------------------------------------------------------------------------------>
+		<div id="courseDiv">
+
+			<br>
+			<h2 id="courseTitle">Coursework (Highlights)</h2>
+			<br>
+
+			<div id="courses">
+				
+				<h5>Energy Systems (EE 351)</h5>
+				<p>- Develops understanding of modern energy systems through theory and analysis of the system and its components. Discussions of generation, transmission, and utilization are complemented by environmental and energy resources topics as well as electromechanical conversion, power electronics, electric safety, renewable energy, and electricity blackouts.</p>
+
+				<h5>Energy Infrastructure (CEE 402)</h5>
+				<p>- Energy infrastructure, focusing largely on balance of plant topics. Includes elements of site selection, design, and construction. Electrical production facilities and transmission. Emphasis on renewable energy facilities. Aids student ability to participate in a variety of projects involving energy infrastructure.</p>
+
+				<h5>Signals and Systems (EE 235)</h5>
+				<p>- Introduction to continuous time signal analysis. Basic signals including impulses, pulses, and unit steps. Periodic signals. Convolution of signals. Fourier series and transforms in discrete and continuous time. Computer laboratory.</p>
+
+				<h5>Planned:</h5>
+				<h5>Wind Energy (EE 451)</h5>
+				<p>- Covers the operation and modeling of wind energy, wind statistics, wind generators and converters, wind energy systems, challenges to wind energy development, impacts of wind energy on the power grid, and existing and potential solutions to wind energy integration.</p>
+
+				<h5>Electronics Controls (EE 458)</h5>
+				<p>- Theory, design, and analysis of closed-loop controllers for power electronics circuits. Emphasis will be placed on modern control methods using digital control.</p>
+
+				<h5>Advanced Technical Communications (EE 393)</h5>
+				<p>- Practical skills for day-to-day engineering communication as well as an advanced exploration of how to prepare persuasive documents and presentations for technical and non-technical audiences.</p>
+
+				<h5>Power Electronics Design (EE 452)</h5>
+				<p>- Electronic conversion and control of electrical power. Includes semiconductor switching devices, power converter circuits, design of magnetics, and control of power converters. Also ac/ac, ac/dc, and dc/dc power converters; circuit simulation; extensive laboratory work; a four-week power converter design project.</p>
+
+				<h5>And assorted others. Please contact me if you are interested in my complete transcript.</h5>
+
+			</div>
+
+			<img id="endcourseDiv" src="images/spacing.png" alt="" width="100" height="95">
+    		<hr>
+		</div>
+
+
+		<!-- ------------------------------------------------------------------------------------------------------------------>
+
+
+		<div id="contactdiv">
+			<br>
+			<h2 id="contactTitle">Contact</h2>
+			<br>
+
+			
+			<h4 id="t1">If you're interested in contacting me, please email me <a href = "mailto:sethbrichards1@example.com">here</a>. Check out my GitHub <a href="https://github.com/sethbrichards">here.</a>Check out my LinkedIn <a href="https://www.linkedin.com/in/seth-richards/">here</a>.</h4>
+			
+			<img src="images/email.png" alt="" width="150" height="150" id="email">
+			<img src="images/git.png" alt="" width="150" height="150" id="git">
+
+			<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+				<div id="badge" style="width: 20px" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="seth-richards"><a class="LI-simple-link" href='https://www.linkedin.com/in/seth-richards?trk=profile-badge'>Seth Richards</a>
+
+		</div>
+
+		<div id="panel"><br><br><br><br></div>
 
 	</div>
-
-
 
 </body>
 </html>
