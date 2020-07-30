@@ -6,6 +6,7 @@ html {
  body{
  	width: auto;
  	height: auto;
+
  	scroll-behavior: smooth;
  }
 
@@ -29,7 +30,8 @@ body, html {
 	width:100%;
 	padding: 0;
 	margin: 0;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 /* ---------------------------------------------------------------------- -------------------------------------- */
@@ -39,7 +41,8 @@ body, html {
 	background-color: black;
 	z-index: 1;
 	top: 0px;
-	width: 1200px;
+	left: -1000px;
+	width: 2400px;
 }
 /* ---------------------------------------------------------------------- -------------------------------------- */
 
@@ -61,7 +64,8 @@ body, html {
 	top: 20px;
 	border: none;
 	height: 4px;
-	width: 110%;
+	left: -1000px;
+	width: 2200px;
 	background-color: black;
 }
 
@@ -69,17 +73,17 @@ body, html {
 	font-size: 130%;
 	padding: 0px;
 	margin: 0px;
-	position: fixed;
+	position: relative;
 	left: 20px;
 	width: 300px;
+	top: 5px;
 }
 
 #scrollButtons{
 	position: fixed;
 	width: 900px;
 	left: 320px;
-	top: 49px;
-
+	top: 42px;
 }
 
 .tab {
@@ -111,11 +115,12 @@ body, html {
 
 #titleLineBase{
 	position: relative;
-	top: 85px;
+	top: -11px;
 	border: none;
 	height: 2px;
 	background-color: black;
-	width: 110%;
+	left: -1000px;
+	width: 2200px;
 }
 
 
@@ -127,58 +132,62 @@ body, html {
 	min-width: 1100px;
 }
 
-#p1{
+#photos img{
 	position: relative;
+	top: 2.5px;
+}
+
+#p1{
 	left: 20px;
+	top: 5px;
 }
 #p2{
-	position: relative;
 	left: 40px;
 }
 #p3{
-	position: relative;
 	left: 60px;
+	top: 5px;
 }
 #p4{
-	position: relative;
 	left: 80px;
 }
 #p5{
-	position: relative;
 	left: 100px;
 }
 
+#p6{
+	left: 120px;
+}
+
 #titleAboutMe{
+	font-size: 35px;
 	left: 40px;
 	position: relative;
-	font-size: 35px;
+	display: inline-block;
 }
 
 #insert{
 	position: relative;
-	overflow: visible;
-	left: 0px;
+	left: 80px;
 	width: 775px;
-	height: auto;
-	padding: 0;
-	margin: 0;
+	max-height: 60%;
 	display: inline-block;
 	padding: 0;
 	margin: 0;
 	top: -100px;
 }
 #insert p{
-	font-size: 	15px;
+	font-size: 	95%;
 	width: 700px;
 	position: relative;	
-	left: 	80px;
 	overflow: auto;
 }
 
 #aboutLine{
 	position: relative;
 	height: 1px;
-	width: 110%;
+	left: -1000px;
+	width: 2200px;
 	background-color: black;
 }
 
@@ -238,7 +247,8 @@ body, html {
 #courses{
 	padding: 0;
 	margin: 0;
-	width: 1000px;
+	width: 70%;
+	
 	position: relative;	
 	left: 	80px;
 }
@@ -250,36 +260,47 @@ body, html {
 
 /* ---------------------------------------------------------------------- -------------------------------------- */
 
+#contactDiv{
+	position: relative;
+	height: 100px;
+	overflow-y: hidden;
+	padding: 0;
+	margin: 0;
+}
+
 #contactTitle{
 	left: 40px;
 	position: relative;
 	font-size: 35px;
 }
 
-#t1, #t2, #t3{
+#t1{
 	position: relative;
-	left: 100px;
+	left: 40px;
 	top: -30px;
 }
 
 #email{
 	position: relative;
-	left: 300px;
-	top: -30px;
+	left: 330px;
+	top: -230px;
 }
 
 #git{
 	position: relative;
-	left: 450px;
-	top: -30px;
+	left: 430px;
+	top: -230px;
 	display: inline;
 }
 
 #badge{
 	position: relative;
-	left: 1000px;
-	top: -300px;
-	display: inline;
+	left: 550px;
+	top: -100px;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	
 }
 
 
@@ -288,6 +309,8 @@ body, html {
 #panel{
 	background-color:black;
 	position: relative;
-	top: -0px;
+	top: 0px;
+	width: 2200px;
+	left: -1000px;
 	height: 100px;
 }
