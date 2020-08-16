@@ -2,7 +2,7 @@
 <html>
 <head>
 	
-	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Seth Richards</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script type="text/javascript" src="script.js"></script>
@@ -74,12 +74,12 @@
 				<p>Outside of school and work, I like to read science fiction, play racquetball, go hiking, and keep up to date on global affairs. I used to be a competitive fencer; ask me about it if you’re interested!</p>
 
 				<div style="height:0; overflow:visible; position: absolute;">
-				<img id="profilePicture" src="images/profilePicture.png" alt="Seth Richards" width="300" height="500">
+					<img id="profilePicture" src="images/profilePicture.png" alt="Seth Richards" width="300" height="500">
 				</div>
 
 			</div>
 
-				
+
 
 			<img id="endaboutDiv" src="images/spacing.png" alt="" width="100" height="95">
 
@@ -115,87 +115,211 @@
 			<h2 id="resumeTitle">Resumé</h2>
 			<br>
 			<iframe id="resume" src="docs/websiteResume.pdf#toolbar=0" width="800px" height="1050px">
-    		</iframe>
-    		<img id="endresumeDiv" src="images/spacing.png" alt="" width="100" height="95">
+			</iframe>
+			<img id="endresumeDiv" src="images/spacing.png" alt="" width="100" height="95">
 
-    		<hr style=" position:relative;  left: -1000px; width: 2200px;">
+			<hr style=" position:relative;  left: -1000px; width: 2200px;">
 
 		</div>
 		
 		<!-- ------------------------------------------------------------------------------------------------------------------>
-			<div id="projectDiv">
+		<div id="projectDiv">
 
-			<br>
 			<h2 id="projectTitle">Projects</h2>
-			<br>
-			<p id="work" style="font-size:13px;">This section is work in progress. Check out my resume and GitHub for more information.</p>
-			<img id="endprojectDiv" src="images/spacing.png" alt="" width="100" height="95">
-    		<hr style=" position:relative;  left: -1000px; width: 2200px;">
-		</div>
 
-		<!-- ------------------------------------------------------------------------------------------------------------------>
-		<div id="courseDiv">
+			<!-- Slideshow container -->
+			<div class="slideshow-container" style="margin-bottom: 0;">
 
-			<br>
-			<h2 id="courseTitle">Coursework (Highlights)</h2>
-			<br>
+			<a class="prev" onclick="onclickSlides(-1)">Previous</a>
+			<a class="next" onclick="onclickSlides(1)">Next</a>
+				<!-- The dots for each slide -->
+				<div style="text-align:center; position: relative; left: 20%; top: -50px;">
+					<span class="dot" onmouseover="onMouseoverSlides(1)" ></span>
+					<span class="dot" onmouseover="onMouseoverSlides(2)" ></span>
+					<span class="dot" onmouseover="onMouseoverSlides(3)" ></span>
+				</div>
+				<div class="projectSlides fade">
+					<div>
 
-			<div id="courses">
-				
-				<h5>Energy Systems (EE 351)</h5>
-				<p>- Develops understanding of modern energy systems through theory and analysis of the system and its components. Discussions of generation, transmission, and utilization are complemented by environmental and energy resources topics as well as electromechanical conversion, power electronics, electric safety, renewable energy, and electricity blackouts.</p>
-
-				<h5>Energy Infrastructure (CEE 402)</h5>
-				<p>- Energy infrastructure, focusing largely on balance of plant topics. Includes elements of site selection, design, and construction. Electrical production facilities and transmission. Emphasis on renewable energy facilities. Aids student ability to participate in a variety of projects involving energy infrastructure.</p>
-
-				<h5>Signals and Systems (EE 235)</h5>
-				<p>- Introduction to continuous time signal analysis. Basic signals including impulses, pulses, and unit steps. Periodic signals. Convolution of signals. Fourier series and transforms in discrete and continuous time. Computer laboratory.</p>
-
-				<h5>Planned:</h5>
-				<h5>Wind Energy (EE 451)</h5>
-				<p>- Covers the operation and modeling of wind energy, wind statistics, wind generators and converters, wind energy systems, challenges to wind energy development, impacts of wind energy on the power grid, and existing and potential solutions to wind energy integration.</p>
-
-				<h5>Electronics Controls (EE 458)</h5>
-				<p>- Theory, design, and analysis of closed-loop controllers for power electronics circuits. Emphasis will be placed on modern control methods using digital control.</p>
-
-				<h5>Advanced Technical Communications (EE 393)</h5>
-				<p>- Practical skills for day-to-day engineering communication as well as an advanced exploration of how to prepare persuasive documents and presentations for technical and non-technical audiences.</p>
-
-				<h5>Power Electronics Design (EE 452)</h5>
-				<p>- Electronic conversion and control of electrical power. Includes semiconductor switching devices, power converter circuits, design of magnetics, and control of power converters. Also ac/ac, ac/dc, and dc/dc power converters; circuit simulation; extensive laboratory work; a four-week power converter design project.</p>
-
-				<h5>And assorted others. Please contact me if you are interested in my complete transcript.</h5>
-
-			</div>
-
-			<img id="endcourseDiv" src="images/spacing.png" alt="" width="100" height="95">
-    		<hr style=" position:relative;  left: -1000px; width: 2200px;">
-		</div>
+						<div style="display:inline-block; vertical-align: top; width: 39% ; margin-bottom: 0;">
 
 
-		<!-- ------------------------------------------------------------------------------------------------------------------>
+							<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">Wind Farm Project Analysis</h5></u>
+							<p style="position:relative; left:5%; top: -80px;">In my Energy Infrastructure course, I was assigned a project to propose and analyze a wind farm design conforming to given financial constraints using a variety of online resources.</p>
+							<p style="position:relative; left:5%; top: -80px;">Using the NREL's wind prospector tool, I decided to propose a location just north of Rapid 
+								City, SD. Accumulated data showed excellent average wind speeds, available land with limited restrictions, and an area currently underutilized by other renewable energies. Further research revealed a few good state incentives to take advantage of, and a market that had demand for energy at prices reasonable to current turbine designs.</p>
+								<p style="position:relative; left:5%; top: -80px;">Finally, I utilized the NREL's System Advisor Model software to simulate the farm using data from the wind prospector to choose the specific turbine models, turbine direction, and turbine height. With some customizations in place, the program gave me a detailed summary of expected costs of construction and maintenance, average and monthly energy production, and the cost of energy per KWh to make back the initial investment in a reasonable amount of time.</p>
+								<p style="position:relative; left:5%; top: -80px;">This project gave me a good idea of how wind farm locations are chosen and analyzed to develop a detailed plan on how to achieve a profit based on data and models.</p>
+
+							</div>
+
+							<img src="images/SAMwind1.jpg" style="width:60%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
+							<h4 style="position:relative; left:51%; top: -75px;">Figure 1: Some screenshots of the NREL software I used, and part of my proposal.</h4>
+
+							<!-- Next and previous buttons -->
+
+						</div>
+					</div>
+
+					<div class="projectSlides fade">
+
+						<div>
+
+							<div style="display:inline-block; vertical-align: top; width: 37%;">
 
 
-		<div id="contactdiv">
-			<br>
-			<h2 id="contactTitle">Contact</h2>
-			<br>
+								<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">Custom Personal Website</h5></u>
+								<p style="position:relative; left:5%;top: -80px;">In my free time, I've designed this custom website you're currently using from scratch, no template needed.</p>
+								<p style="position:relative; left:5%;top: -80px;">Using my knowledge from several previous projects including an older version of this website, I've coded up a unique and personalized design with HTML, CSS, and Javascript. I've learned a lot about how to make use of different design elements from research on w3schools and stack overflow, and general trial-and-error to get things to just the way I like.</p>
+								<p style="position:relative; left:5%;top: -80px;">For example, the slideshow you're viewing right now was inspired by a few different versions from w3 schools. I've had to modify both the CSS and the Javascript to possess certain attributes and behaviors that the open-source versions didn't have.</p>
+								<p style="position:relative; left:5%;top: -80px;">I've had to be creative and persistent to get this site looking just how I want it, and function properly on a variety of different screens. That's been my biggest challenge for sure, and don't even get me started on the current version of my mobile view (I'm still learning!)</p>
+								<p style="position:relative; left:5%;top: -80px;">This project demonstrates that I can utilize online tools and resources to learn about new skills and technologies, and find and create innovative solutions related to web design. It was a whole lot of fun to see this website develop from a simple idea in my head into this finished (it's not) project. Next stop, mobile CSS development!</p>
 
-			
-			<h4 id="t1">If you're interested in contacting me, please email me <a target="blank" href = "mailto:sethbrichards1@gmail.com">here</a>. Check out my GitHub <a href="https://github.com/sethbrichards">here</a> and LinkedIn <a href="https://www.linkedin.com/in/seth-richards/">here</a>.</h4>
-			
-			<img src="images/spacing.png" alt="Seth Richards" width="1" height="350">
-			<a target="blank" href = "mailto:sethbrichards1@gmail.com"><img src="images/email.png" alt="" width="150" height="150" id="email"></a>
-			<a target="blank" href="https://github.com/SethBRichards"><img src="images/git.png" alt="" width="150" height="150" id="git"></a>
+							</div>
 
-			<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-				<div id="badge" style="width: 20px" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="seth-richards"><a class="LI-simple-link" href='https://www.linkedin.com/in/seth-richards?trk=profile-badge'>Seth Richards</a>
+							<img src="images/websiteProject.jpg" style="width:62%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
+							<h4 style="position:relative; left:51%; top: -95px;">Figure 2: Some screenshots of my website, and the code it runs on.</h4>
 
-		</div>
 
-		<div id="panel"><br><br><br><br></div>
+						</div>
+					</div>
+
+					<div class="projectSlides fade">
+						<div>
+							<div style="display:inline-block; vertical-align: top; width: 37%;">
+								<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">DC Voltage Doubler with Varying Loads</h5></u>
+								<p style="position:relative; left:5%;top: -80px;">In my Circuits and Devices I class, I designed a DC to DC voltage doubler that functioned across a variety of different loads, with some intense constraints. The ripple voltage needed to be less than 5%, the circuit had to double voltage across parallel loads between 100-1M Ω, and the 100 Ω load had to drawn at least 2mA of current.</p>
+								<p style="position:relative; left:5%;top: -80px;">This project was a great way to demonstrate the skills and sub circuits I learned in this course, and a few I didn't. I used a lot of diodes in that class to change voltages, so I was comfortable making a capacitor-doubler, and the Zener voltage regulator. The NMOS gate to take in the oscillating input and allow power through to the doubler was simple as well. The voltage oscillator was very tricky. I'd previously used inverters to create timer circuits, but choosing resistors to fit the timing I wanted while also not slowing down the modeling software was too time consuming, so I used the 555 timer circuit instead.</p>
+								<p style="position:relative; left:5%;top: -80px;">I think this project demonstrates my skills in circuit design and my experience in using the circuit software LTSpice. I think I spent 40 hours on this project alone, building and combining maybe 100 different sub circuits to complete the task assigned. The constraint that specified the minimum current through the 100 Ω parallel load was very challenging, and I did a lot of research on LTSpice to figure out the best way to do it. As a result, I feel confident in finding resources and help to solve problems on my own.</p>
+							</div>
+							<img src="images/spiceProject.jpg" style="width:62%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
+							<h4 style="position:relative; left:51%; top: -125px;">Figure 3: My circuit design, its output voltage, and part of the report.</h4>
+
+						</div>
+					</div>
+
+				</div>
+
+				<!-- This section of code was modified from the wschools page on a few different types of slideshows.-->
+				<script type="text/javascript">
+
+				var slideIndex = 1; // starting slide
+				pause = 0; // initilize timer var
+				showSlides(slideIndex);
+
+				// click to next and reset slide timer
+				function onclickSlides(n) {
+					pause = 1;
+					plusSlides(n);
+					pause = 0;
+					
+				}
+
+				// hover to respectful and reset slide timer
+				function onMouseoverSlides(n){
+					pause = 1;
+					showSlides(slideIndex = n);
+					pause = 0;
+
+				}
+
+				// click to next without resetting timer
+				function plusSlides(n) {
+					showSlides(slideIndex += n);
+				}
+
+				function showSlides(n) {
+
+					var i;
+					var slides = document.getElementsByClassName("projectSlides");
+					var dots = document.getElementsByClassName("dot");
+					if (n > slides.length) {slideIndex = 1}	// no upper overflow
+					if (n < 1) {slideIndex = slides.length} // no lower overflow
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+						}
+						slides[slideIndex-1].style.display = "block";
+						dots[slideIndex-1].className += " active";
+
+					// auto function to next slide after time
+					if (pause == 0) {
+					setTimeout(function(){ plusSlides(1); }, 17000); // periodic timer
+				}
+			}
+
+			</script>
+
+
+<img id="endprojectDiv" src="images/spacing.png" alt="" width="100" height="95">
+<hr style=" position:relative;  left: -1000px; width: 2200px;">
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------------------------>
+<div id="courseDiv">
+
+	<br>
+	<h2 id="courseTitle">Coursework (Highlights)</h2>
+	<br>
+
+	<div id="courses">
+
+		<h5>Energy Systems (EE 351)</h5>
+		<p>- Develops understanding of modern energy systems through theory and analysis of the system and its components. Discussions of generation, transmission, and utilization are complemented by environmental and energy resources topics as well as electromechanical conversion, power electronics, electric safety, renewable energy, and electricity blackouts.</p>
+
+		<h5>Energy Infrastructure (CEE 402)</h5>
+		<p>- Energy infrastructure, focusing largely on balance of plant topics. Includes elements of site selection, design, and construction. Electrical production facilities and transmission. Emphasis on renewable energy facilities. Aids student ability to participate in a variety of projects involving energy infrastructure.</p>
+
+		<h5>Signals and Systems (EE 235)</h5>
+		<p>- Introduction to continuous time signal analysis. Basic signals including impulses, pulses, and unit steps. Periodic signals. Convolution of signals. Fourier series and transforms in discrete and continuous time. Computer laboratory.</p>
+
+		<h5>Planned:</h5>
+		<h5>Wind Energy (EE 451)</h5>
+		<p>- Covers the operation and modeling of wind energy, wind statistics, wind generators and converters, wind energy systems, challenges to wind energy development, impacts of wind energy on the power grid, and existing and potential solutions to wind energy integration.</p>
+
+		<h5>Electronics Controls (EE 458)</h5>
+		<p>- Theory, design, and analysis of closed-loop controllers for power electronics circuits. Emphasis will be placed on modern control methods using digital control.</p>
+
+		<h5>Advanced Technical Communications (EE 393)</h5>
+		<p>- Practical skills for day-to-day engineering communication as well as an advanced exploration of how to prepare persuasive documents and presentations for technical and non-technical audiences.</p>
+
+		<h5>Power Electronics Design (EE 452)</h5>
+		<p>- Electronic conversion and control of electrical power. Includes semiconductor switching devices, power converter circuits, design of magnetics, and control of power converters. Also ac/ac, ac/dc, and dc/dc power converters; circuit simulation; extensive laboratory work; a four-week power converter design project.</p>
+
+		<h5>And assorted others. Please contact me if you are interested in my complete transcript.</h5>
 
 	</div>
+
+	<img id="endcourseDiv" src="images/spacing.png" alt="" width="100" height="95">
+	<hr style=" position:relative;  left: -1000px; width: 2200px;">
+</div>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------>
+
+
+<div id="contactdiv">
+	<br>
+	<h2 id="contactTitle">Contact</h2>
+	<br>
+
+
+	<h4 id="t1">If you're interested in contacting me, please email me <a target="blank" href = "mailto:sethbrichards1@gmail.com">here</a>. Check out my GitHub <a href="https://github.com/sethbrichards">here</a> and LinkedIn <a href="https://www.linkedin.com/in/seth-richards/">here</a>.</h4>
+
+	<img src="images/spacing.png" alt="Seth Richards" width="1" height="350">
+	<a target="blank" href = "mailto:sethbrichards1@gmail.com"><img src="images/email.png" alt="" width="150" height="150" id="email"></a>
+	<a target="blank" href="https://github.com/SethBRichards"><img src="images/git.png" alt="" width="150" height="150" id="git"></a>
+
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<div id="badge" style="width: 20px" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="seth-richards"><a class="LI-simple-link" href='https://www.linkedin.com/in/seth-richards?trk=profile-badge'>Seth Richards</a>
+
+	</div>
+
+	<div id="panel"><br><br><br><br></div>
+
+</div>
 
 </body>
 </html>

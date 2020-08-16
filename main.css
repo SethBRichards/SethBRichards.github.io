@@ -49,7 +49,7 @@ body, html {
 
 /* This div contains the name, title of current page, and page selector. -------------------------------------- */
 #titleDiv{
-	z-index: 1;
+	z-index: 2;
 	position: sticky;
 	height: 10%;
 	min-height: 100px;
@@ -61,6 +61,7 @@ body, html {
 
 #titleLineTop{
 	position: relative;
+	z-index: 3;
 	top: 20px;
 	border: none;
 	height: 4px;
@@ -73,6 +74,7 @@ body, html {
 	font-size: 130%;
 	padding: 0px;
 	margin: 0px;
+	z-index: 4;
 	position: relative;
 	left: 20px;
 	width: 300px;
@@ -80,6 +82,7 @@ body, html {
 }
 
 #scrollButtons{
+	z-index: 3;
 	position: fixed;
 	width: 900px;
 	left: 320px;
@@ -87,6 +90,7 @@ body, html {
 }
 
 .tab {
+  z-index: 3;
   position: absolute;
   left: 675px;
   top: 20px;
@@ -98,6 +102,7 @@ body, html {
 .tab button {
   /*position: static;*/
   background-color: inherit;
+  z-index: 3;
   float: left;
   border: none;
   outline: none;
@@ -114,6 +119,7 @@ body, html {
 }
 
 #titleLineBase{
+	z-index: 3;
 	position: relative;
 	top: -11px;
 	border: none;
@@ -231,8 +237,101 @@ body, html {
 	left: 40px;
 	position: relative;
 	font-size: 35px;
+	width: auto;
 }
 
+/* This section of code was modified/taken from W3 schools, specifically from sections related to slideshows --------*/
+
+/* Slideshow container */
+.slideshow-container {
+  width:90%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide the images by default */
+.projectSlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: -40px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border:solid;
+  border-radius: 8px;
+  border-color: black;
+  user-select: none;
+  padding-left: 15px;
+  left: 500px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color:white;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* -------------------------------------------- */
 
 
 /* ---------------------------------------------------------------------- -------------------------------------- */
@@ -315,3 +414,8 @@ body, html {
 	left: -1000px;
 	height: 100px;
 }
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+
