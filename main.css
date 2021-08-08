@@ -191,7 +191,7 @@ body, html {
 #profilePicture{
 	position: relative;
 	left: 750px;
-	top: -450px;
+	top: -500px;
 	display: inline-block;
 	overflow: hidden;
 }
@@ -396,7 +396,7 @@ body, html {
 #badge{
 	position: relative;
 	left: 550px;
-	top: -100px;
+	top: -200px;
 	display: inline-block;
 	padding: 0;
 	margin: 0;
