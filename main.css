@@ -86,7 +86,7 @@ body, html {
 	position: fixed;
 	width: 900px;
 	left: 320px;
-	top: 42px;
+	top: 40px;
 }
 
 .tab {
@@ -121,7 +121,7 @@ body, html {
 #titleLineBase{
 	z-index: 3;
 	position: relative;
-	top: -11px;
+	top: -15px;
 	border: none;
 	height: 2px;
 	background-color: black;
@@ -168,6 +168,7 @@ body, html {
 #titleAboutMe{
 	font-size: 35px;
 	left: 40px;
+	top:-20px;
 	position: relative;
 }
 
@@ -212,7 +213,7 @@ body, html {
 	font-size: 35px;
 	display: inline;
 	position: relative;
-	top: -30px;
+	top: -40px;
 	left: 40px;
 }
 
