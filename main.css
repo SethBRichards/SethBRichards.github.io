@@ -38,11 +38,11 @@ body, html {
 
 #topcard{
 	position: fixed;
-	background-color: black;
+	background-color: white;
 	z-index: 1;
 	top: 0px;
 	left: -1000px;
-	width: 2400px;
+	width: 2300px;
 }
 /* ---------------------------------------------------------------------- -------------------------------------- */
 
@@ -66,7 +66,7 @@ body, html {
 	border: none;
 	height: 4px;
 	left: -1000px;
-	width: 2200px;
+	width: 2300px;
 	background-color: black;
 }
 
@@ -126,7 +126,7 @@ body, html {
 	height: 2px;
 	background-color: black;
 	left: -1000px;
-	width: 2200px;
+	width: 2300px;
 }
 
 
@@ -191,7 +191,7 @@ body, html {
 #profilePicture{
 	position: relative;
 	left: 750px;
-	top: -500px;
+	top: -550px;
 	display: inline-block;
 	overflow: hidden;
 }
@@ -200,7 +200,7 @@ body, html {
 	position: relative;
 	height: 1px;
 	left: -1000px;
-	width: 2200px;
+	width: 2300px;
 	background-color: black;
 }
 
@@ -347,7 +347,7 @@ body, html {
 #courses{
 	padding: 0;
 	margin: 0;
-	width: 70%;
+	width: 50%;
 
 	position: relative;	
 	left: 	80px;
@@ -410,7 +410,7 @@ body, html {
 	background-color:black;
 	position: relative;
 	top: 0px;
-	width: 2200px;
+	width: 2300px;
 	left: -1000px;
 	height: 100px;
 }

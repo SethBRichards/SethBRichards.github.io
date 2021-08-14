@@ -68,7 +68,7 @@
 				<p>When I moved to Hawaii, I joined my new high school’s <a href="https://www.instagram.com/lunas3882/?hl=en">FRC Robotics team</a>, which exposed me to programming and circuitry for the first time. I was absolutely enthralled, leading me to take some engineering design classes that taught me CAD, and gave me some hands-on experience with Arduino projects. A couple years later, I made up my mind and decided that Electrical Engineering was the best way for me to chase after my passions. </p>
 
 				<p>When I got to college, I joined the <a href="https://faculty.washington.edu/aorsborn/index.html">Orsborn Lab</a>, an ECE affiliated research lab at the university, where I currently volunteer. In the lab, I’m using MATLAB and Python to translate some legacy code for signal processing. I’m learning a lot about data analytics, which will be used to Brain-Computer Interface technologies. It’s cool stuff, and it’s helping me learn a lot about coding, academia, and teamwork. I further developed my python skills in the <a href=" https://labs.ece.uw.edu/real/real_pe.html">Renewable Energy Analysis Lab</a>, working on simulating electric vehicle charging behaviors on a microgrid. </p>
-				<p> In my concentration, I took a year long capstone course that taught me the fundamentals of power electronics and controls through designing, programing, and fabricating an electric bike control PCB, to boost the battery voltage to feed to a 3 phase inverter to power the motor. Check out my project tab to learn more about that project! This project fueled my interest in EVs and electric drives, propelling me towards my current position. </p>
+				<p> In my concentration, I took a year long capstone course that taught me the fundamentals of power electronics and controls through designing, programing, and fabricating an electric bike control PCB, to boost the battery voltage to feed to a 3 phase inverter to power the motor. Check out my project tab to learn more about that project! This project fueled my interest in EVs and electric drives, propelling me towards my current position at <a href="https://www.gm.com/">GM</a>. </p>
 
 				<p>Currently, I'm looking to pursue a Masters related to power electronics and drives to give myself a stronger understanding of my work.</p>
 
@@ -90,7 +90,7 @@
 
 
 		<div>
-			<hr style=" position:relative;  left: -1000px; width: 2200px; top: -6px;">
+			<hr style=" position:relative;  left: -1000px; width: 2300px; top: -6px;">
 
 			<h2 id="interests">Interests</h2>
 
@@ -117,7 +117,7 @@
 
 			<img src="images/solar.png" alt="Seth Richards" width="90" height="90"></a>
 
-			<hr style=" position:relative;  left: -1000px; width: 2200px;">
+			<hr style=" position:relative;  left: -1000px; width: 2300px;">
 
 		</div>
 
@@ -128,11 +128,11 @@
 			<br>
 			<h2 id="resumeTitle">Resumé</h2>
 			<br>
-			<iframe id="resume" src="docs/websiteResume.pdf#toolbar=0" width="800px" height="1050px">
+			<iframe id="resume" src="docs/websiteResume.pdf#toolbar=0" width="850px" height="1100px">
 			</iframe>
 			<img id="endresumeDiv" src="images/spacing.png" alt="" width="100" height="95">
 
-			<hr style=" position:relative;  left: -1000px; width: 2200px;">
+			<hr style=" position:relative;  left: -1000px; width: 2300px;">
 
 		</div>
 		
@@ -151,63 +151,98 @@
 					<span class="dot" onmouseover="onMouseoverSlides(1)" ></span>
 					<span class="dot" onmouseover="onMouseoverSlides(2)" ></span>
 					<span class="dot" onmouseover="onMouseoverSlides(3)" ></span>
+					<span class="dot" onmouseover="onMouseoverSlides(4)" ></span>
+
 				</div>
+
+
 				<div class="projectSlides fade">
 					<div>
 
-						<div style="display:inline-block; vertical-align: top; width: 39% ; margin-bottom: 0;">
+						<div style="display:inline-block; vertical-align: top; width: 25% ; margin-bottom: 0;">
+
+
+							<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">Senior Capstone E-Bike Project</h5></u>
+
+							<h4 style="position:relative; left:5%; top: -80px;">Figure 1: Some images of software models and simulations, the PCB in Altium, and oscilloscope converter output results</h4>
+
+							<p style="position:relative; left:5%; top: -80px;">In my senior power electronic and drives capstone series, I learned about different kinds of power converts and control strategies.</p>
+							<p style="position:relative; left:5%; top: -80px;"> All the material I learned culminated in a 10 week group project designing a single phase 24V DC to 3 phase 48V AC power converter with closed loop controls for both the boost and inverter modules. First, we modelled the components in Plecs software to confirm output ripple behavior based on the switching frequency and components. Then, we created a 3D model in Altium Designer to be fabricated and shipped to us to solder components. During the shipping process, we coded a TI Launchpad in C to control the PCB, and used Plexim hardware to test the board as "hardware in the loop" to get expected output waveforms. Finally, we built the board and tested in against a resitive load and measured for expected results.</p>
+							<p style="position:relative; left:5%; top: -80px;">Unfortunately due to the COVID 19 pandemic, our lap work was remote and we could not test the board against an inductive load or electric motor. Additionally, we only had the budget to build one board, so I was not able to participate in the soldering and hardware debugging process physically.</p>
+							<p style="position:relative; left:5%; top: -80px;">This project demonstrates my understanding of power electronics and controls, and helped me develop key skills in simulating, programming, and designing power electronics which I hope to utilize in my future endeavors.</p>
+
+						</div>
+
+						<img src="images/boardProject.jpg" style="width:60%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
+
+					</div>
+				</div>
+
+
+				<div class="projectSlides fade">
+					<div>
+
+						<div style="display:inline-block; vertical-align: top; width: 25% ; margin-bottom: 0;">
 
 
 							<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">Wind Farm Project Analysis</h5></u>
+
+							<h4 style="position:relative; left:5%; top: -80px;">Figure 2: Some screenshots of the NREL software I used, and part of my proposal.</h4>
+
 							<p style="position:relative; left:5%; top: -80px;">In my Energy Infrastructure course, I was assigned a project to propose and analyze a wind farm design conforming to given financial constraints using a variety of online resources.</p>
-							<p style="position:relative; left:5%; top: -80px;">Using the NREL's wind prospector tool, I decided to propose a location just north of Rapid 
-								City, SD. Accumulated data showed excellent average wind speeds, available land with limited restrictions, and an area currently underutilized by other renewable energies. Further research revealed a few good state incentives to take advantage of, and a market that had demand for energy at prices reasonable to current turbine designs.</p>
-								<p style="position:relative; left:5%; top: -80px;">Finally, I utilized the NREL's System Advisor Model software to simulate the farm using data from the wind prospector to choose the specific turbine models, turbine direction, and turbine height. With some customizations in place, the program gave me a detailed summary of expected costs of construction and maintenance, average and monthly energy production, and the cost of energy per KWh to make back the initial investment in a reasonable amount of time.</p>
-								<p style="position:relative; left:5%; top: -80px;">This project gave me a good idea of how wind farm locations are chosen and analyzed to develop a detailed plan on how to achieve a profit based on data and models.</p>
+							<p style="position:relative; left:5%; top: -80px;">Using the NREL's wind prospector tool, I decided to propose a location just north of Rapid City, SD. Accumulated data showed excellent average wind speeds, available land with limited restrictions, and an area currently underutilized by other renewable energies. Further research revealed a few good state incentives to take advantage of, and a market that had demand for energy at prices reasonable to current turbine designs.</p>
+							<p style="position:relative; left:5%; top: -80px;">Finally, I utilized the NREL's System Advisor Model software to simulate the farm using data from the wind prospector to choose the specific turbine models, turbine direction, and turbine height. With some customizations in place, the program gave me a detailed summary of expected costs of construction and maintenance, average and monthly energy production, and the cost of energy per KWh to make back the initial investment in a reasonable amount of time.</p>
+							<p style="position:relative; left:5%; top: -80px;">This project gave me a good idea of how wind farm locations are chosen and analyzed to develop a detailed plan on how to achieve a profit based on data and models.</p>
 
-							</div>
-
-							<img src="images/SAMwind1.jpg" style="width:60%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
-							<h4 style="position:relative; left:51%; top: -75px;">Figure 1: Some screenshots of the NREL software I used, and part of my proposal.</h4>
-
-							<!-- Next and previous buttons -->
-
-						</div>
-					</div>
-
-					<div class="projectSlides fade">
-
-						<div>
-
-							<div style="display:inline-block; vertical-align: top; width: 37%;">
-
-
-								<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">Custom Personal Website</h5></u>
-								<p style="position:relative; left:5%;top: -80px;">In my free time, I've designed this custom website you're currently using from scratch, no template needed.</p>
-								<p style="position:relative; left:5%;top: -80px;">Using my knowledge from several previous projects including an older version of this website, I've coded up a unique and personalized design with HTML, CSS, and Javascript. I've learned a lot about how to make use of different design elements from research on w3schools and stack overflow, and general trial-and-error to get things to just the way I like.</p>
-								<p style="position:relative; left:5%;top: -80px;">For example, the slideshow you're viewing right now was inspired by a few different versions from w3 schools. I've had to modify both the CSS and the Javascript to possess certain attributes and behaviors that the open-source versions didn't have.</p>
-								<p style="position:relative; left:5%;top: -80px;">I've had to be creative and persistent to get this site looking just how I want it, and function properly on a variety of different screens. That's been my biggest challenge for sure, and don't even get me started on the current version of my mobile view (I'm still learning!)</p>
-								<p style="position:relative; left:5%;top: -80px;">This project demonstrates that I can utilize online tools and resources to learn about new skills and technologies, and find and create innovative solutions related to web design. It was a whole lot of fun to see this website develop from a simple idea in my head into this finished (it's not) project. Next stop, mobile CSS development!</p>
-
-							</div>
-
-							<img src="images/websiteProject.jpg" style="width:62%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
-							<h4 style="position:relative; left:51%; top: -95px;">Figure 2: Some screenshots of my website, and the code it runs on.</h4>
 
 
 						</div>
-					</div>
 
-					<div class="projectSlides fade">
-						<div>
-							<div style="display:inline-block; vertical-align: top; width: 37%;">
-								<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">DC Voltage Doubler with Varying Loads</h5></u>
-								<p style="position:relative; left:5%;top: -80px;">In my Circuits and Devices I class, I designed a DC to DC voltage doubler that functioned across a variety of different loads, with some intense constraints. The ripple voltage needed to be less than 5%, the circuit had to double voltage across parallel loads between 100-1M Ω, and the 100 Ω load had to drawn at least 2mA of current.</p>
-								<p style="position:relative; left:5%;top: -80px;">This project was a great way to demonstrate the skills and sub circuits I learned in this course, and a few I didn't. I used a lot of diodes in that class to change voltages, so I was comfortable making a capacitor-doubler, and the Zener voltage regulator. The NMOS gate to take in the oscillating input and allow power through to the doubler was simple as well. The voltage oscillator was very tricky. I'd previously used inverters to create timer circuits, but choosing resistors to fit the timing I wanted while also not slowing down the modeling software was too time consuming, so I used the 555 timer circuit instead.</p>
-								<p style="position:relative; left:5%;top: -80px;">I think this project demonstrates my skills in circuit design and my experience in using the circuit software LTSpice. I think I spent 40 hours on this project alone, building and combining maybe 100 different sub circuits to complete the task assigned. The constraint that specified the minimum current through the 100 Ω parallel load was very challenging, and I did a lot of research on LTSpice to figure out the best way to do it. As a result, I feel confident in finding resources and help to solve problems on my own.</p>
+						<img src="images/SAMwind1.jpg" style="width:60%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
+
+					</div>
+				</div>
+
+				<div class="projectSlides fade">
+
+					<div>
+
+						<div style="display:inline-block; vertical-align: top; width: 25%;">
+
+
+							<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">Custom Personal Website</h5></u>
+
+							<h4 style="position:relative; left:5%; top: -80px;">Figure 3: Some screenshots of my website, and the code it runs on.</h4>
+
+
+							<p style="position:relative; left:5%;top: -80px;">In my free time, I've designed this custom website you're currently using from scratch, no template needed.</p>
+							<p style="position:relative; left:5%;top: -80px;">Using my knowledge from several previous projects including an older version of this website, I've coded up a unique and personalized design with HTML, CSS, and Javascript. I've learned a lot about how to make use of different design elements from research on w3schools and stack overflow, and general trial-and-error to get things to just the way I like.</p>
+							<p style="position:relative; left:5%;top: -80px;">For example, the slideshow you're viewing right now was inspired by a few different versions from w3 schools. I've had to modify both the CSS and the Javascript to possess certain attributes and behaviors that the open-source versions didn't have.</p>
+							<p style="position:relative; left:5%;top: -80px;">I've had to be creative and persistent to get this site looking just how I want it, and function properly on a variety of different screens. That's been my biggest challenge for sure, and don't even get me started on the current version of my mobile view (I'm still learning!)</p>
+							<p style="position:relative; left:5%;top: -80px;">This project demonstrates that I can utilize online tools and resources to learn about new skills and technologies, and find and create innovative solutions related to web design. It was a whole lot of fun to see this website develop from a simple idea in my head into this finished (it's not) project. Next stop, mobile CSS development!</p>
+
+						</div>
+
+						<img src="images/websiteProject.jpg" style="width:62%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
+
+					</div>
+				</div>
+
+				<div class="projectSlides fade">
+					<div>
+						<div style="display:inline-block; vertical-align: top; width: 25%;">
+								
+							<u><h5 style="position:relative; left:5%; font-size: 120%; top: -78px; margin-bottom: 0;">DC Voltage Doubler with Varying Loads</h5></u>
+
+							<h4 style="position:relative; left:5%;top: -80px;">Figure 4: My circuit design, its output voltage, and part of the report.</h4>
+
+							<p style="position:relative; left:5%;top: -80px;">In my Circuits and Devices I class, I designed a DC to DC voltage doubler that functioned across a variety of different loads, with some intense constraints. The ripple voltage needed to be less than 5%, the circuit had to double voltage across parallel loads between 100-1M Ω, and the 100 Ω load had to drawn at least 2mA of current.</p>
+							<p style="position:relative; left:5%;top: -80px;">This project was a great way to demonstrate the skills and sub circuits I learned in this course, and a few I didn't. I used a lot of diodes in that class to change voltages, so I was comfortable making a capacitor-doubler, and the Zener voltage regulator. The NMOS gate to take in the oscillating input and allow power through to the doubler was simple as well. The voltage oscillator was very tricky. I'd previously used inverters to create timer circuits, but choosing resistors to fit the timing I wanted while also not slowing down the modeling software was too time consuming, so I used the 555 timer circuit instead.</p>
+							<p style="position:relative; left:5%;top: -80px;">I think this project demonstrates my skills in circuit design and my experience in using the circuit software LTSpice. I think I spent 40 hours on this project alone, building and combining maybe 100 different sub circuits to complete the task assigned. The constraint that specified the minimum current through the 100 Ω parallel load was very challenging, and I did a lot of research on LTSpice to figure out the best way to do it. As a result, I feel confident in finding resources and help to solve problems on my own.</p>
+
 							</div>
+
 							<img src="images/spiceProject.jpg" style="width:62%; display:inline-block; position: relative; left: 2.5%; top:-30px;">
-							<h4 style="position:relative; left:51%; top: -125px;">Figure 3: My circuit design, its output voltage, and part of the report.</h4>
 
 						</div>
 					</div>
@@ -268,7 +303,7 @@
 
 
 <img id="endprojectDiv" src="images/spacing.png" alt="" width="100" height="95">
-<hr style=" position:relative;  left: -1000px; width: 2200px;">
+<hr style=" position:relative;  left: -1000px; width: 2300px;">
 </div>
 
 <!-- ------------------------------------------------------------------------------------------------------------------>
@@ -306,7 +341,7 @@
 	</div>
 
 	<img id="endcourseDiv" src="images/spacing.png" alt="" width="100" height="95">
-	<hr style=" position:relative;  left: -1000px; width: 2200px;">
+	<hr style=" position:relative;  left: -1000px; width: 2300px;">
 </div>
 
 
@@ -325,8 +360,9 @@
 	<a target="blank" href = "mailto:sethbrichards1@gmail.com"><img src="images/email.png" alt="" width="150" height="150" id="email"></a>
 	<a target="blank" href="https://github.com/SethBRichards"><img src="images/git.png" alt="" width="150" height="150" id="git"></a>
 
+	<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-	<div id="badge" style="width: 20px" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="seth-richards"><a class="LI-simple-link" href='https://www.linkedin.com/in/seth-richards?trk=profile-badge'>Seth Richards</a>
+	<div id="badge" style="width: 20px; position:relative; top:-100px;left:500px;" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="seth-richards"><a class="LI-simple-link" href='https://www.linkedin.com/in/seth-richards?trk=profile-badge'></a>
 
 	</div>
 
